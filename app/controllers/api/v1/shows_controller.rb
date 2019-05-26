@@ -6,13 +6,13 @@ def index
 end
 
 def search
-term = params[:search]
-
-
-    url = "http://api.tvmaze.com/search/shows?q=#{term}"
-
-    response = RestClient.get(url)
-    data = JSON.parse(response)
+# term = params[:search]
+#
+#
+#     url = "http://api.tvmaze.com/search/shows?q=#{term}"
+#
+#     response = RestClient.get(url)
+#     data = JSON.parse(response)
     byebug
 end
 
