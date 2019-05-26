@@ -6,14 +6,22 @@ def index
 end
 
 def search
-# term = params[:search]
-#
-#
-#     url = "http://api.tvmaze.com/search/shows?q=#{term}"
-#
-#     response = RestClient.get(url)
-#     data = JSON.parse(response)
-    byebug
+
+term = params[:search]
+
+    url = "http://api.tvmaze.com/search/shows?q=#{term}"
+
+    response = RestClient.get(url)
+    data = JSON.parse(response)
+    shows = data
+
+    shows.map do |show|
+      byebug
+
+    end
+
+    render json: shows
+
 end
 
 
