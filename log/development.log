@@ -16231,3 +16231,1911 @@ Processing by Api::V1::ShowsController#index as */*
 Completed 200 OK in 212ms (Views: 205.5ms | ActiveRecord: 5.8ms)
 
 
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (3.8ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.370877"], ["updated_at", "2019-05-27 13:13:41.370877"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.378807"], ["updated_at", "2019-05-27 13:13:41.378807"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.381052"], ["updated_at", "2019-05-27 13:13:41.381052"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.383416"], ["updated_at", "2019-05-27 13:13:41.383416"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.385749"], ["updated_at", "2019-05-27 13:13:41.385749"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.387967"], ["updated_at", "2019-05-27 13:13:41.387967"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.389971"], ["updated_at", "2019-05-27 13:13:41.389971"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.392123"], ["updated_at", "2019-05-27 13:13:41.392123"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.394213"], ["updated_at", "2019-05-27 13:13:41.394213"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.396952"], ["updated_at", "2019-05-27 13:13:41.396952"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.399688"], ["updated_at", "2019-05-27 13:13:41.399688"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.401878"], ["updated_at", "2019-05-27 13:13:41.401878"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.403747"], ["updated_at", "2019-05-27 13:13:41.403747"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.405766"], ["updated_at", "2019-05-27 13:13:41.405766"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.408068"], ["updated_at", "2019-05-27 13:13:41.408068"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.410217"], ["updated_at", "2019-05-27 13:13:41.410217"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.412704"], ["updated_at", "2019-05-27 13:13:41.412704"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.415011"], ["updated_at", "2019-05-27 13:13:41.415011"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.417238"], ["updated_at", "2019-05-27 13:13:41.417238"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.419446"], ["updated_at", "2019-05-27 13:13:41.419446"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.421670"], ["updated_at", "2019-05-27 13:13:41.421670"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.423563"], ["updated_at", "2019-05-27 13:13:41.423563"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.425515"], ["updated_at", "2019-05-27 13:13:41.425515"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.428473"], ["updated_at", "2019-05-27 13:13:41.428473"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.430748"], ["updated_at", "2019-05-27 13:13:41.430748"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.432850"], ["updated_at", "2019-05-27 13:13:41.432850"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.435056"], ["updated_at", "2019-05-27 13:13:41.435056"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.437434"], ["updated_at", "2019-05-27 13:13:41.437434"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.439422"], ["updated_at", "2019-05-27 13:13:41.439422"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.441562"], ["updated_at", "2019-05-27 13:13:41.441562"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.443553"], ["updated_at", "2019-05-27 13:13:41.443553"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.446078"], ["updated_at", "2019-05-27 13:13:41.446078"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.448987"], ["updated_at", "2019-05-27 13:13:41.448987"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.451081"], ["updated_at", "2019-05-27 13:13:41.451081"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.452899"], ["updated_at", "2019-05-27 13:13:41.452899"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.454684"], ["updated_at", "2019-05-27 13:13:41.454684"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.456847"], ["updated_at", "2019-05-27 13:13:41.456847"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.459109"], ["updated_at", "2019-05-27 13:13:41.459109"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.461112"], ["updated_at", "2019-05-27 13:13:41.461112"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.462983"], ["updated_at", "2019-05-27 13:13:41.462983"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.465326"], ["updated_at", "2019-05-27 13:13:41.465326"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.467673"], ["updated_at", "2019-05-27 13:13:41.467673"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.469543"], ["updated_at", "2019-05-27 13:13:41.469543"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.471496"], ["updated_at", "2019-05-27 13:13:41.471496"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.473815"], ["updated_at", "2019-05-27 13:13:41.473815"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.476046"], ["updated_at", "2019-05-27 13:13:41.476046"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.478587"], ["updated_at", "2019-05-27 13:13:41.478587"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.481144"], ["updated_at", "2019-05-27 13:13:41.481144"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.483625"], ["updated_at", "2019-05-27 13:13:41.483625"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.485699"], ["updated_at", "2019-05-27 13:13:41.485699"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (1.1ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.487850"], ["updated_at", "2019-05-27 13:13:41.487850"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.491128"], ["updated_at", "2019-05-27 13:13:41.491128"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.493451"], ["updated_at", "2019-05-27 13:13:41.493451"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.495725"], ["updated_at", "2019-05-27 13:13:41.495725"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.498254"], ["updated_at", "2019-05-27 13:13:41.498254"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.500560"], ["updated_at", "2019-05-27 13:13:41.500560"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.503002"], ["updated_at", "2019-05-27 13:13:41.503002"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.505361"], ["updated_at", "2019-05-27 13:13:41.505361"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.507320"], ["updated_at", "2019-05-27 13:13:41.507320"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.509003"], ["updated_at", "2019-05-27 13:13:41.509003"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.510902"], ["updated_at", "2019-05-27 13:13:41.510902"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.513013"], ["updated_at", "2019-05-27 13:13:41.513013"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.514836"], ["updated_at", "2019-05-27 13:13:41.514836"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.516588"], ["updated_at", "2019-05-27 13:13:41.516588"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.518266"], ["updated_at", "2019-05-27 13:13:41.518266"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.519963"], ["updated_at", "2019-05-27 13:13:41.519963"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.521688"], ["updated_at", "2019-05-27 13:13:41.521688"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.523454"], ["updated_at", "2019-05-27 13:13:41.523454"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.525217"], ["updated_at", "2019-05-27 13:13:41.525217"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.526993"], ["updated_at", "2019-05-27 13:13:41.526993"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.529025"], ["updated_at", "2019-05-27 13:13:41.529025"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.530888"], ["updated_at", "2019-05-27 13:13:41.530888"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.532792"], ["updated_at", "2019-05-27 13:13:41.532792"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.534495"], ["updated_at", "2019-05-27 13:13:41.534495"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.536378"], ["updated_at", "2019-05-27 13:13:41.536378"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.538325"], ["updated_at", "2019-05-27 13:13:41.538325"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.540079"], ["updated_at", "2019-05-27 13:13:41.540079"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.541913"], ["updated_at", "2019-05-27 13:13:41.541913"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.543858"], ["updated_at", "2019-05-27 13:13:41.543858"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.546235"], ["updated_at", "2019-05-27 13:13:41.546235"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.547968"], ["updated_at", "2019-05-27 13:13:41.547968"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.549829"], ["updated_at", "2019-05-27 13:13:41.549829"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.551649"], ["updated_at", "2019-05-27 13:13:41.551649"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.553542"], ["updated_at", "2019-05-27 13:13:41.553542"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.555312"], ["updated_at", "2019-05-27 13:13:41.555312"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.557035"], ["updated_at", "2019-05-27 13:13:41.557035"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.559037"], ["updated_at", "2019-05-27 13:13:41.559037"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.561234"], ["updated_at", "2019-05-27 13:13:41.561234"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.563075"], ["updated_at", "2019-05-27 13:13:41.563075"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.564974"], ["updated_at", "2019-05-27 13:13:41.564974"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.566904"], ["updated_at", "2019-05-27 13:13:41.566904"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.568818"], ["updated_at", "2019-05-27 13:13:41.568818"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.570684"], ["updated_at", "2019-05-27 13:13:41.570684"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.572420"], ["updated_at", "2019-05-27 13:13:41.572420"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.574201"], ["updated_at", "2019-05-27 13:13:41.574201"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.576236"], ["updated_at", "2019-05-27 13:13:41.576236"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.578549"], ["updated_at", "2019-05-27 13:13:41.578549"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.580687"], ["updated_at", "2019-05-27 13:13:41.580687"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.582646"], ["updated_at", "2019-05-27 13:13:41.582646"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.584509"], ["updated_at", "2019-05-27 13:13:41.584509"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.586897"], ["updated_at", "2019-05-27 13:13:41.586897"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.589103"], ["updated_at", "2019-05-27 13:13:41.589103"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.592235"], ["updated_at", "2019-05-27 13:13:41.592235"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.594851"], ["updated_at", "2019-05-27 13:13:41.594851"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.597393"], ["updated_at", "2019-05-27 13:13:41.597393"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.599302"], ["updated_at", "2019-05-27 13:13:41.599302"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.601274"], ["updated_at", "2019-05-27 13:13:41.601274"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.603520"], ["updated_at", "2019-05-27 13:13:41.603520"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.605870"], ["updated_at", "2019-05-27 13:13:41.605870"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.608206"], ["updated_at", "2019-05-27 13:13:41.608206"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.610410"], ["updated_at", "2019-05-27 13:13:41.610410"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.612558"], ["updated_at", "2019-05-27 13:13:41.612558"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.615022"], ["updated_at", "2019-05-27 13:13:41.615022"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.617371"], ["updated_at", "2019-05-27 13:13:41.617371"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.619598"], ["updated_at", "2019-05-27 13:13:41.619598"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.621545"], ["updated_at", "2019-05-27 13:13:41.621545"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.623470"], ["updated_at", "2019-05-27 13:13:41.623470"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.625373"], ["updated_at", "2019-05-27 13:13:41.625373"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.627366"], ["updated_at", "2019-05-27 13:13:41.627366"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.629630"], ["updated_at", "2019-05-27 13:13:41.629630"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.632032"], ["updated_at", "2019-05-27 13:13:41.632032"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.634561"], ["updated_at", "2019-05-27 13:13:41.634561"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.636906"], ["updated_at", "2019-05-27 13:13:41.636906"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.639248"], ["updated_at", "2019-05-27 13:13:41.639248"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.641328"], ["updated_at", "2019-05-27 13:13:41.641328"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.643438"], ["updated_at", "2019-05-27 13:13:41.643438"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.645335"], ["updated_at", "2019-05-27 13:13:41.645335"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.647219"], ["updated_at", "2019-05-27 13:13:41.647219"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.648936"], ["updated_at", "2019-05-27 13:13:41.648936"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.650944"], ["updated_at", "2019-05-27 13:13:41.650944"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.652800"], ["updated_at", "2019-05-27 13:13:41.652800"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.654556"], ["updated_at", "2019-05-27 13:13:41.654556"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.656301"], ["updated_at", "2019-05-27 13:13:41.656301"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.658036"], ["updated_at", "2019-05-27 13:13:41.658036"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.659940"], ["updated_at", "2019-05-27 13:13:41.659940"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.661997"], ["updated_at", "2019-05-27 13:13:41.661997"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.664166"], ["updated_at", "2019-05-27 13:13:41.664166"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.666503"], ["updated_at", "2019-05-27 13:13:41.666503"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.668537"], ["updated_at", "2019-05-27 13:13:41.668537"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.670249"], ["updated_at", "2019-05-27 13:13:41.670249"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.672558"], ["updated_at", "2019-05-27 13:13:41.672558"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.674632"], ["updated_at", "2019-05-27 13:13:41.674632"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.676585"], ["updated_at", "2019-05-27 13:13:41.676585"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.678606"], ["updated_at", "2019-05-27 13:13:41.678606"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.681447"], ["updated_at", "2019-05-27 13:13:41.681447"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.683624"], ["updated_at", "2019-05-27 13:13:41.683624"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.685571"], ["updated_at", "2019-05-27 13:13:41.685571"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.687593"], ["updated_at", "2019-05-27 13:13:41.687593"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.689703"], ["updated_at", "2019-05-27 13:13:41.689703"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.691756"], ["updated_at", "2019-05-27 13:13:41.691756"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.694122"], ["updated_at", "2019-05-27 13:13:41.694122"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.696569"], ["updated_at", "2019-05-27 13:13:41.696569"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.698764"], ["updated_at", "2019-05-27 13:13:41.698764"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.700618"], ["updated_at", "2019-05-27 13:13:41.700618"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.702519"], ["updated_at", "2019-05-27 13:13:41.702519"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.704683"], ["updated_at", "2019-05-27 13:13:41.704683"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.706825"], ["updated_at", "2019-05-27 13:13:41.706825"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.708915"], ["updated_at", "2019-05-27 13:13:41.708915"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.712400"], ["updated_at", "2019-05-27 13:13:41.712400"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.714576"], ["updated_at", "2019-05-27 13:13:41.714576"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.716522"], ["updated_at", "2019-05-27 13:13:41.716522"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.718460"], ["updated_at", "2019-05-27 13:13:41.718460"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.720606"], ["updated_at", "2019-05-27 13:13:41.720606"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.722812"], ["updated_at", "2019-05-27 13:13:41.722812"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.724983"], ["updated_at", "2019-05-27 13:13:41.724983"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.726988"], ["updated_at", "2019-05-27 13:13:41.726988"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.728705"], ["updated_at", "2019-05-27 13:13:41.728705"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.730267"], ["updated_at", "2019-05-27 13:13:41.730267"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.732020"], ["updated_at", "2019-05-27 13:13:41.732020"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.733736"], ["updated_at", "2019-05-27 13:13:41.733736"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.735473"], ["updated_at", "2019-05-27 13:13:41.735473"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.737667"], ["updated_at", "2019-05-27 13:13:41.737667"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.739833"], ["updated_at", "2019-05-27 13:13:41.739833"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.741835"], ["updated_at", "2019-05-27 13:13:41.741835"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.743635"], ["updated_at", "2019-05-27 13:13:41.743635"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.745901"], ["updated_at", "2019-05-27 13:13:41.745901"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.747840"], ["updated_at", "2019-05-27 13:13:41.747840"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.749655"], ["updated_at", "2019-05-27 13:13:41.749655"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.751556"], ["updated_at", "2019-05-27 13:13:41.751556"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.753866"], ["updated_at", "2019-05-27 13:13:41.753866"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.755849"], ["updated_at", "2019-05-27 13:13:41.755849"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.758102"], ["updated_at", "2019-05-27 13:13:41.758102"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.760425"], ["updated_at", "2019-05-27 13:13:41.760425"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.762910"], ["updated_at", "2019-05-27 13:13:41.762910"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.765167"], ["updated_at", "2019-05-27 13:13:41.765167"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.767370"], ["updated_at", "2019-05-27 13:13:41.767370"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.769300"], ["updated_at", "2019-05-27 13:13:41.769300"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.771277"], ["updated_at", "2019-05-27 13:13:41.771277"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.773238"], ["updated_at", "2019-05-27 13:13:41.773238"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.774995"], ["updated_at", "2019-05-27 13:13:41.774995"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.776811"], ["updated_at", "2019-05-27 13:13:41.776811"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.778912"], ["updated_at", "2019-05-27 13:13:41.778912"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.780763"], ["updated_at", "2019-05-27 13:13:41.780763"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.782535"], ["updated_at", "2019-05-27 13:13:41.782535"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.784335"], ["updated_at", "2019-05-27 13:13:41.784335"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.786333"], ["updated_at", "2019-05-27 13:13:41.786333"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.788210"], ["updated_at", "2019-05-27 13:13:41.788210"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.790323"], ["updated_at", "2019-05-27 13:13:41.790323"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.792735"], ["updated_at", "2019-05-27 13:13:41.792735"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.794890"], ["updated_at", "2019-05-27 13:13:41.794890"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.796804"], ["updated_at", "2019-05-27 13:13:41.796804"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.798544"], ["updated_at", "2019-05-27 13:13:41.798544"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.800480"], ["updated_at", "2019-05-27 13:13:41.800480"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.802642"], ["updated_at", "2019-05-27 13:13:41.802642"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.804515"], ["updated_at", "2019-05-27 13:13:41.804515"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.806209"], ["updated_at", "2019-05-27 13:13:41.806209"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.807922"], ["updated_at", "2019-05-27 13:13:41.807922"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.809597"], ["updated_at", "2019-05-27 13:13:41.809597"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.811435"], ["updated_at", "2019-05-27 13:13:41.811435"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.813638"], ["updated_at", "2019-05-27 13:13:41.813638"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.815775"], ["updated_at", "2019-05-27 13:13:41.815775"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.817802"], ["updated_at", "2019-05-27 13:13:41.817802"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.819964"], ["updated_at", "2019-05-27 13:13:41.819964"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.821916"], ["updated_at", "2019-05-27 13:13:41.821916"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.823621"], ["updated_at", "2019-05-27 13:13:41.823621"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.825196"], ["updated_at", "2019-05-27 13:13:41.825196"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.826967"], ["updated_at", "2019-05-27 13:13:41.826967"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.828730"], ["updated_at", "2019-05-27 13:13:41.828730"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.830424"], ["updated_at", "2019-05-27 13:13:41.830424"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.832378"], ["updated_at", "2019-05-27 13:13:41.832378"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.834199"], ["updated_at", "2019-05-27 13:13:41.834199"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.835987"], ["updated_at", "2019-05-27 13:13:41.835987"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.837649"], ["updated_at", "2019-05-27 13:13:41.837649"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.839380"], ["updated_at", "2019-05-27 13:13:41.839380"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.841088"], ["updated_at", "2019-05-27 13:13:41.841088"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.843306"], ["updated_at", "2019-05-27 13:13:41.843306"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.845068"], ["updated_at", "2019-05-27 13:13:41.845068"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.846917"], ["updated_at", "2019-05-27 13:13:41.846917"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.848822"], ["updated_at", "2019-05-27 13:13:41.848822"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.850686"], ["updated_at", "2019-05-27 13:13:41.850686"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.852585"], ["updated_at", "2019-05-27 13:13:41.852585"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.854293"], ["updated_at", "2019-05-27 13:13:41.854293"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.856042"], ["updated_at", "2019-05-27 13:13:41.856042"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.857759"], ["updated_at", "2019-05-27 13:13:41.857759"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.859678"], ["updated_at", "2019-05-27 13:13:41.859678"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.861592"], ["updated_at", "2019-05-27 13:13:41.861592"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.863758"], ["updated_at", "2019-05-27 13:13:41.863758"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.6ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.865767"], ["updated_at", "2019-05-27 13:13:41.865767"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.868372"], ["updated_at", "2019-05-27 13:13:41.868372"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.870530"], ["updated_at", "2019-05-27 13:13:41.870530"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.872883"], ["updated_at", "2019-05-27 13:13:41.872883"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.874970"], ["updated_at", "2019-05-27 13:13:41.874970"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.877200"], ["updated_at", "2019-05-27 13:13:41.877200"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.879617"], ["updated_at", "2019-05-27 13:13:41.879617"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.881872"], ["updated_at", "2019-05-27 13:13:41.881872"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.884022"], ["updated_at", "2019-05-27 13:13:41.884022"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.886099"], ["updated_at", "2019-05-27 13:13:41.886099"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.887982"], ["updated_at", "2019-05-27 13:13:41.887982"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.890044"], ["updated_at", "2019-05-27 13:13:41.890044"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.893137"], ["updated_at", "2019-05-27 13:13:41.893137"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.895841"], ["updated_at", "2019-05-27 13:13:41.895841"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.904380"], ["updated_at", "2019-05-27 13:13:41.904380"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.912979"], ["updated_at", "2019-05-27 13:13:41.912979"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.920970"], ["updated_at", "2019-05-27 13:13:41.920970"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (11.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.5ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.934443"], ["updated_at", "2019-05-27 13:13:41.934443"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.937358"], ["updated_at", "2019-05-27 13:13:41.937358"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.939662"], ["updated_at", "2019-05-27 13:13:41.939662"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.941705"], ["updated_at", "2019-05-27 13:13:41.941705"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.943614"], ["updated_at", "2019-05-27 13:13:41.943614"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.945894"], ["updated_at", "2019-05-27 13:13:41.945894"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.948187"], ["updated_at", "2019-05-27 13:13:41.948187"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.949998"], ["updated_at", "2019-05-27 13:13:41.949998"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.951665"], ["updated_at", "2019-05-27 13:13:41.951665"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.953482"], ["updated_at", "2019-05-27 13:13:41.953482"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.955241"], ["updated_at", "2019-05-27 13:13:41.955241"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.957081"], ["updated_at", "2019-05-27 13:13:41.957081"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.959219"], ["updated_at", "2019-05-27 13:13:41.959219"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.961323"], ["updated_at", "2019-05-27 13:13:41.961323"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.963118"], ["updated_at", "2019-05-27 13:13:41.963118"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.964935"], ["updated_at", "2019-05-27 13:13:41.964935"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.966889"], ["updated_at", "2019-05-27 13:13:41.966889"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.969093"], ["updated_at", "2019-05-27 13:13:41.969093"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.970964"], ["updated_at", "2019-05-27 13:13:41.970964"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.973166"], ["updated_at", "2019-05-27 13:13:41.973166"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.975413"], ["updated_at", "2019-05-27 13:13:41.975413"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.977394"], ["updated_at", "2019-05-27 13:13:41.977394"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.979304"], ["updated_at", "2019-05-27 13:13:41.979304"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.981421"], ["updated_at", "2019-05-27 13:13:41.981421"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.983599"], ["updated_at", "2019-05-27 13:13:41.983599"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.985949"], ["updated_at", "2019-05-27 13:13:41.985949"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.988003"], ["updated_at", "2019-05-27 13:13:41.988003"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.989911"], ["updated_at", "2019-05-27 13:13:41.989911"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.991806"], ["updated_at", "2019-05-27 13:13:41.991806"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.993529"], ["updated_at", "2019-05-27 13:13:41.993529"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.995858"], ["updated_at", "2019-05-27 13:13:41.995858"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.997975"], ["updated_at", "2019-05-27 13:13:41.997975"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:41.999881"], ["updated_at", "2019-05-27 13:13:41.999881"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.001904"], ["updated_at", "2019-05-27 13:13:42.001904"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.004184"], ["updated_at", "2019-05-27 13:13:42.004184"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.006475"], ["updated_at", "2019-05-27 13:13:42.006475"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.008633"], ["updated_at", "2019-05-27 13:13:42.008633"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.010570"], ["updated_at", "2019-05-27 13:13:42.010570"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.013036"], ["updated_at", "2019-05-27 13:13:42.013036"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.015042"], ["updated_at", "2019-05-27 13:13:42.015042"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.017475"], ["updated_at", "2019-05-27 13:13:42.017475"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.019656"], ["updated_at", "2019-05-27 13:13:42.019656"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.021887"], ["updated_at", "2019-05-27 13:13:42.021887"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.024072"], ["updated_at", "2019-05-27 13:13:42.024072"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.026309"], ["updated_at", "2019-05-27 13:13:42.026309"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.4ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.028598"], ["updated_at", "2019-05-27 13:13:42.028598"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.030896"], ["updated_at", "2019-05-27 13:13:42.030896"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.032743"], ["updated_at", "2019-05-27 13:13:42.032743"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.034624"], ["updated_at", "2019-05-27 13:13:42.034624"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.036700"], ["updated_at", "2019-05-27 13:13:42.036700"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.038670"], ["updated_at", "2019-05-27 13:13:42.038670"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.2ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.040564"], ["updated_at", "2019-05-27 13:13:42.040564"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.042446"], ["updated_at", "2019-05-27 13:13:42.042446"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.044414"], ["updated_at", "2019-05-27 13:13:42.044414"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.046547"], ["updated_at", "2019-05-27 13:13:42.046547"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.048884"], ["updated_at", "2019-05-27 13:13:42.048884"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.051235"], ["updated_at", "2019-05-27 13:13:42.051235"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.053581"], ["updated_at", "2019-05-27 13:13:42.053581"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.055613"], ["updated_at", "2019-05-27 13:13:42.055613"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.057602"], ["updated_at", "2019-05-27 13:13:42.057602"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.059505"], ["updated_at", "2019-05-27 13:13:42.059505"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.061336"], ["updated_at", "2019-05-27 13:13:42.061336"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4166
+  [1m[36mShow Create (0.3ms)[0m  [1m[32mINSERT INTO "shows" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-05-27 13:13:42.063446"], ["updated_at", "2019-05-27 13:13:42.063446"]]
+  ↳ db/seeds.rb:4166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4166
