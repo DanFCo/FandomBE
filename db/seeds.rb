@@ -4175,7 +4175,6 @@ data = [
 
 data.map do |x|
   Show.create(
-    rating: x[:rating],
     name: x[:name],
     genres: x[:genres],
     official_site: x[:official_site],
