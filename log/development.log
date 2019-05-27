@@ -16021,3 +16021,213 @@ Processing by Api::V1::ShowsController#index as */*
 Completed 200 OK in 131ms (Views: 128.1ms | ActiveRecord: 2.2ms)
 
 
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:49:05 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (4.4ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 128ms (Views: 123.5ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:49:24 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (3.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 141ms (Views: 137.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:50:46 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (19.7ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 183ms (Views: 162.8ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:53:31 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (2.5ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 129ms (Views: 126.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:55:45 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (2.5ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 185ms (Views: 181.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:56:43 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (10.0ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 210ms (Views: 199.9ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 19:57:16 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (6.9ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 147ms (Views: 139.6ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:01:44 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (2.0ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 156ms (Views: 153.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:02:14 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (2.5ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 226ms (Views: 222.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:03:01 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (31.7ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 222ms (Views: 190.1ms | ActiveRecord: 31.7ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:04:57 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (18.0ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 190ms (Views: 171.9ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:05:44 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (66.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 294ms (Views: 226.1ms | ActiveRecord: 66.8ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:06:06 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (1.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 289ms (Views: 287.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:06:19 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (36.4ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 168ms (Views: 131.8ms | ActiveRecord: 36.4ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:07:43 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (9.7ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 177ms (Views: 166.6ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:08:27 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (2.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 210ms (Views: 206.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:09:33 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (8.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 161ms (Views: 151.8ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:09:38 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (33.4ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 203ms (Views: 169.1ms | ActiveRecord: 33.4ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:09:45 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (1.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 215ms (Views: 213.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:09:51 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (53.5ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 295ms (Views: 240.9ms | ActiveRecord: 53.5ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:12:05 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (9.0ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 364ms (Views: 355.1ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:12:13 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (16.9ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 149ms (Views: 132.0ms | ActiveRecord: 16.9ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:13:14 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (11.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 253ms (Views: 241.9ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:14:03 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (11.0ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 161ms (Views: 149.7ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:15:35 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (9.3ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 281ms (Views: 271.1ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:15:48 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (33.1ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 183ms (Views: 149.8ms | ActiveRecord: 33.1ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:19:10 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (36.7ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 184ms (Views: 146.8ms | ActiveRecord: 36.7ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:20:54 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (2.4ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 173ms (Views: 169.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:20:59 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (20.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 150ms (Views: 129.6ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/api/v1/shows" for ::1 at 2019-05-26 20:21:45 -0400
+Processing by Api::V1::ShowsController#index as */*
+  [1m[36mShow Load (5.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  ↳ app/controllers/api/v1/shows_controller.rb:5
+Completed 200 OK in 212ms (Views: 205.5ms | ActiveRecord: 5.8ms)
+
+
