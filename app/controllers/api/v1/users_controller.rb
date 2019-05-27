@@ -8,12 +8,11 @@ def index
 end
 
 
-def show
-  user = User.find(params[:id])
-end
-
-def update
-  user = User.find(params[:id])
+def new
+  name = params[:name]
+  avatar = params[:avatar]
+  user = User.create(name: name, avatar: avatar)
+  render json: user
 end
 
 
