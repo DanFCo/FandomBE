@@ -4,8 +4,8 @@ Rails.application.routes.draw do
     namespace :v1 do
       get "/shows", to: "shows#index"
       post "/search", to: "shows#search"
+      post "/bookmarks/new", to: "bookmarks#new"
       resources :users
-      resources :bookmarks
     end
   end
 end

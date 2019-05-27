@@ -6,6 +6,11 @@ def index
 render json: bookmarks
 end
 
+def new
+  byebug
+
+end
+
 
 
 
