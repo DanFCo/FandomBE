@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# require 'rest-client'
-# require 'json'
-#
-#
 
+
+require 'rest-client'
+require 'json'
+require 'pry'
 
   #   url = "https://api.tvmaze.com/shows"
   #
@@ -21,19 +21,20 @@
   #     data.map do |x|
   #
   #     Show.create(
-  #       name: x[:show][:name],
-  #       official_site: x[:show][:officialSite],
-  #       thumbnail: x[:show][:medium],
-  #       img_url: x[:show][:original],
-  #       summary: x[:show][:summary]
+  #
+  #
+  #       name: x["name"],
+  #       official_site: x["officialSite"],
+  #       thumbnail: x["image"]["medium"],
+  #       img_url: x["image"]["original"],
+  #       summary: x["summary"]
   #     )
   #
   #
   # end
 
 
-# // 20190526183824
-# // http://localhost:3000/api/v1/shows
+
 
 
 
@@ -4174,7 +4175,7 @@ data = [
 ]
 
 data.map do |x|
-  Show.create(
+  Show.find_or_create_by(
     name: x[:name],
     genres: x[:genres],
     official_site: x[:official_site],

@@ -8,7 +8,7 @@ class CreateShows < ActiveRecord::Migration[5.2]
       t.string :thumbnail
       t.string :img_url
       t.string :summary
-      t.string :comments
+
 
       t.timestamps
     end
