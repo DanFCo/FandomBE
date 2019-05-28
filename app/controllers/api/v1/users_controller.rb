@@ -7,14 +7,13 @@ def index
   render json: users
 end
 
-
-def show
-  user = User.find(params[:id])
+def new
+name = params[:name]
+avatar = params[:avatar]
+user =User.find_or_create_by(name: name, avatar: avatar)
+render json: user
 end
 
-def update
-  user = User.find(params[:id])
-end
 
 
 end
