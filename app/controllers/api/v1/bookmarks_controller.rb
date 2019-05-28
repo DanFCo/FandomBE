@@ -12,6 +12,7 @@ def new
   show = params[:show]
   bookmark = Bookmark.find_or_create_by(show_id: show, user_id: user)
   render json: bookmark
+  
 end
 
 
