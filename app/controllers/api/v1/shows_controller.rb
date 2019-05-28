@@ -3,7 +3,7 @@ class Api::V1::ShowsController < ApplicationController
 def index
   shows = Show.all
   render json: shows
-  
+
 end
 
 def search
@@ -14,7 +14,6 @@ def search
 
     response = RestClient.get(url)
     shows = JSON.parse(response)
-
 
       created_shows = shows.map do |x|
 
