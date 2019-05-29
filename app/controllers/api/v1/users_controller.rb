@@ -18,5 +18,12 @@ render json: user
 end
 
 
+def update
+user = User.find(params[:id])
+updatedUser = user.update(avatar: params[:newAvatar])
+render json: updatedUser
+end
+
+
 
 end
