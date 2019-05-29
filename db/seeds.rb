@@ -4185,3 +4185,8 @@ data.map do |x|
     comments: x[:comments]
   )
 end
+
+User.create(name: "Sugah bear", avatar: "https://i.pinimg.com/originals/af/43/5c/af435c6bdf2fd5cf720f97b1046fe2c0.jpg")
+
+Bookmark.create(show_id: 1, user_id: 1)
+Bookmark.create(show_id: 2, user_id: 1)

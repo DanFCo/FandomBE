@@ -8,12 +8,15 @@ def index
 end
 
 
+
+
 def new
-  name = params[:name]
-  avatar = params[:avatar]
-  user = User.create(name: name, avatar: avatar)
-  render json: user
+name = params[:name]
+avatar = params[:avatar]
+user =User.find_or_create_by(name: name, avatar: avatar)
+render json: user
 end
+
 
 
 end

@@ -6,6 +6,8 @@ Rails.application.routes.draw do
       post "/search", to: "shows#search"
       post "/bookmarks/new", to: "bookmarks#new"
       post "/users/new", to: "users#new"
+      post "/bookmarks/getit", to: "bookmarks#getit"
+      resources :users
     end
   end
 end
